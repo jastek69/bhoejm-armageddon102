@@ -83,8 +83,6 @@ locals {
 */
 
 
-
-
 # Providers - terraform
 terraform {
   required_providers {
@@ -93,13 +91,11 @@ terraform {
       version = "~> 5.46.0" 
     }
   }
-  /* cloud  { 
-    
-    organization = "BHoEjM" 
-
+  cloud  {    
+    organization = "BHoEjM"
     workspaces { 
-      name = "zion-armageddon-bhoejm" 
-    } */ 
+      name = "zion-armageddon_v1_2" 
+    }
   } 
-/* } */
+}
 
